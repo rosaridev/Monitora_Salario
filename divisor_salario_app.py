@@ -4,7 +4,6 @@ os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
 os.environ["TK_SILENCE_DEPRECATION"] = "1"
 
 
-sg.theme("DarkBlue3")
 
 #layout da janela
 layout = [
@@ -28,7 +27,7 @@ while True:
 
     if evento == "Calcular":
         try: 
-            salario = float(valores("salario"))
+            salario = float(valores["Salario"])
 
             investimento = salario * 0.2
             seguro = salario * 0.1
@@ -42,7 +41,7 @@ while True:
                 f"Lazer: R${lazer:.2f}"
             )
 
-            janela["resultado"].update(resultado)
+            janela["Resultado"].update(resultado)
         except ValueError:
             janela["resultado"].update("Por favor, digite um valor numero válido!")
 janela.close()
