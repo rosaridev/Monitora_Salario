@@ -3,7 +3,11 @@ import os
 os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"  
 os.environ["TK_SILENCE_DEPRECATION"] = "1"
 
-
+try:
+    sg.theme("DarkBlue3")
+    print("Tema DarkBlue3 aplicado com sucesso")
+except Exception as e:
+    print(f"Tema não disponível: {e}")
 
 #layout da janela
 layout = [
