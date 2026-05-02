@@ -4,9 +4,6 @@ fixas = float(input("quanto e suas contas fixas? :  "))
 investimento = float(input("quanto e suas contas investimento? :  "))
 seguro = float(input("quanto e suas contas seguro? :  "))
 
-
-porc_lazer =(lazer/salario)*100
-porc_fixas = (fixas/salario)*100
 porc_investimento= (investimento/salario)*100
 porc_seguro = (seguro/salario)*100
 
