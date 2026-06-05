@@ -6,6 +6,8 @@ seguro = float(input("quanto e suas contas seguro? :  "))
 
 porc_investimento= (investimento/salario)*100
 porc_seguro = (seguro/salario)*100
+porc_lazer = (lazer/salario)*100
+porc_fixas = (fixas/salario)*100
 
 print(f"seu gasto em % do salario com lazer é: {porc_lazer}%")
 print(f"seu gasto em % do salario com fixas é: {porc_fixas}%")
