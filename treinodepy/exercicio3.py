@@ -14,6 +14,7 @@ def main():
     meses = int(input("em quantos meses deseja dividir o seguro? "))
     seguro = calcular_seguro(salario)
     valor_reserva = divisao_por_mes(seguro,meses)
+    print(f"-------É recomendado que você reserve 6 meses do seu salario que é: R$ {salario:.2f} para o seguro.--------")
     print(f"valor da Reserva: R$ {seguro:.2f}")
     print(f"valor da Reserva dividido {meses} o valor: R$ {valor_reserva:.2f}")
 

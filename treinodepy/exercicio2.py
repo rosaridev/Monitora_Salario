@@ -40,7 +40,6 @@ def main():
     if gasto > salario:
         print("Atenção! O gasto mensal é maior que o salário.")
 
-    print(f"Classificação : {classificacao}")
-
+    
 if __name__ == "__main__":
     main()
